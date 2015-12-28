@@ -23,7 +23,7 @@ appDispatcher.register( ( payload ) => {
     let action = payload.action;
 
     switch( action.actionType ) {
-        EVENT_CONST.SET_API_KEY:
+        case EVENT_CONST.SET_API_KEY:
             if( APIKey === action.apiKey ) {
                 return true;
             }
