@@ -5,11 +5,11 @@ let DefaultRoute = Router.DefaultRoute;
 let Route = Router.Route;
 
 const GifCreatorApp = require( '../app' );
-const LandingPage = require( '../landingPage' );
+const Main = require( '../components/main' );
 
 const GifCreatorRoutes = (
     <Route name="gifcreator" path="/" handler={ GifCreatorApp }>
-		<DefaultRoute handler={ LandingPage } />
+		<DefaultRoute handler={ Main } />
 	</Route>
 );
 

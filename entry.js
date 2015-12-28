@@ -6,7 +6,7 @@ var Route = Router.Route;
 var RouteHandler = Router.RouteHandler;
 var TransitionTo = Router.transitionTo;
 
-var GifCreatorRoutes = require( './public/js/router/router' );
+var GifCreatorRoutes = require( 'router/router' );
 
 Router.run( GifCreatorRoutes, function( Handler ) {
 	var pageEl = document.getElementById( 'page' );

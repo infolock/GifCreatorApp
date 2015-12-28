@@ -46,7 +46,7 @@ var config = {
 			'react-bootstrap/lib/input': 'react-boostrap/lib/Input',
 			'react-bootstrap/lib/overlayTrigger': 'react-boostrap/lib/OverlayTrigger',
 		},
-		modulesDirectories: ['node_modules', 'bower_components', 'src', 'libs']
+		modulesDirectories: ['node_modules', 'bower_components', 'public/js']
 	},
 	plugins: [
 		new webpack.optimize.CommonsChunkPlugin( 'vendor', '../public/dist/vendor.bundle.js' ),

@@ -9,6 +9,7 @@ var methodOverride = require( 'method-override' );
 var cookieParser = require( 'cookie-parser' );
 var morgan = require('morgan');
 var app = module.exports = express();
+var _ = require('underscore');
 
 app.set( 'views', path.join( __dirname, 'views' ) );
 app.set( 'view engine', 'jade' );
@@ -17,9 +18,10 @@ app.use( express.static( path.join( __dirname, 'public' ) ) );
 app.set( 'port', process.env.PORT || 3000 );
 
 app.use( function( req, res, next ) {
-    res.header('Cache-Control', 'private, no-cache, no-store, must-revalidate');
-    res.header('Expires', '-1');
-    res.header('Pragma', 'no-cache');
+    res.header( 'Cache-Control', 'private, no-cache, no-store, must-revalidate' );
+    res.header( 'Expires', '-1' );
+    res.header( 'Pragma', 'no-cache' );
+
 	next();
 });
 
