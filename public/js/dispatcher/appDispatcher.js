@@ -2,7 +2,7 @@ const Flux = require( 'flux' );
 const appDispatcher = new Flux.Dispatcher();
 
 appDispatcher.handleAction = function( action ) {
-    this.dispatcher({
+    this.dispatch({
         source: 'VIEW_ACTION',
         action: action
     });
