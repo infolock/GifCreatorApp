@@ -1,4 +1,12 @@
 # Gif Creator App
+
+## Requirements
+Node/npm, grunt, bower.
+
+## Installation
+Just run the following 2 commands from within this project's root path:
+`npm install && bower install`
+
 ## Description
 -  Build an app!  This app can be in any format you wish, whether it be iOS, Android, or even a webapp.
 -  App must include the two APIs mentioned above.
