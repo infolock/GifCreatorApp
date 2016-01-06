@@ -13,3 +13,7 @@ Just run the following 2 commands from within this project's root path:
 -  Record a 1-2 minute video and post it on youtube.  You will submit the link to this video in a file along with a link to your repository (preferably github).
 
 > This was created using the <a href="https://github.com/sahat/hackathon-starter/">Hackaton Starter</a>.
+
+
+## Background
+Built with nodejs as the server, ReactJS as the framework, Jade as the initial view.   The rest is just using the GifLayer API, underscorejs and jquery.
