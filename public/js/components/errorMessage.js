@@ -6,7 +6,7 @@ class ErrorMessage extends React.Component {
         return {
             errorMessage: React.PropTypes.string.isRequired,
             errorDetails: React.PropTypes.string
-        }
+        };
     }
 
     render() {

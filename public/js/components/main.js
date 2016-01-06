@@ -1,4 +1,5 @@
 const _ = require( 'underscore' );
+const $ = require( 'jquery' );
 const React = require( 'react' );
 
 const APIKeyStore = require( 'stores/apiKey' );
@@ -26,7 +27,7 @@ class Main extends React.Component {
 
     apiKeyDidChange() {
         let options = {
-            api_key: APIKeyStore.get()
+            'api_key': APIKeyStore.get()
         };
 
         let params = _.pick( _.extend( {}, GifLayerConfig.REQUEST_DEFAULTS, options ), _.keys( GifLayerConfig.REQUEST_DEFAULTS ) );

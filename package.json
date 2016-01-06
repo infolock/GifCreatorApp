@@ -14,6 +14,7 @@
   "dependencies": {
     "array-flatten": "^1.0.2",
     "async": "^1.5.0",
+    "babel-eslint": "^4.1.6",
     "babel-plugin-rewire": "^0.1.22",
     "backbone": "^1.1.2",
     "bcrypt-nodejs": "^0.0.3",

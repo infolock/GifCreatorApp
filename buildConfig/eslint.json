@@ -35,12 +35,14 @@
 	"plugins": [
 		"react"
 	],
+    "parser": "Babel-ESLint",
 	"ecmaFeatures": {
+        "arrowFunctions": true,
+        "blockBindings": true,
+        "classes": true,
+        "defaultParams": true,
 		"jsx": true,
-		"arrowFunctions": true,
-		"blockBindings": true,
-		"classes": true,
-		"templateStrings": true,
-		"objectLiteralShorthandProperties": true
+        "objectLiteralShorthandProperties": true,
+		"templateStrings": true
 	}
 }
