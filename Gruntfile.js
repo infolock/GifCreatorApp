@@ -25,7 +25,7 @@ module.exports = function( grunt ) {
 	grunt.registerTask( 'webpack', 'Runs webpack', function( which ) {
 		var done = this.async();
 		var webpack = require( 'webpack' );
-		var config = require( 'buildConfig/webpack' );
+		var config = require( './buildConfig/webpack' );
 
 		webpack( config, function( err, stats ) {
 			if( stats.compilation.errors.length ) {

@@ -1,4 +1,4 @@
-const API_KEY = '7c0d8aa417c6255d3a17c3ee457099b2';
+const API_KEY = 'f4ac042f8449405137b4645f4fa7db28';
 
 const GiflayerConfig = {
     URL: 'http://apilayer.net/api/capture',
